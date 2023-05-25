@@ -27,7 +27,7 @@ body{
 
 .outerBody{
 
-    height: 1024px;
+    height: fit-content;
     width: 1440px;
     background-color: #FFFF;
     margin-top: 30px;
@@ -48,23 +48,14 @@ body{
 
 }
 
-.insideBody1{
-    height: 100px;
-    width: 1440px;
-    border-radius: 0px;
-    background-color:  #D2D4F2;
-    margin-top: 90px;
-    align-items: flex-start;
-    margin-top:90px ;
-}
 .insideBody{
     height: 100px;
     width: 1440px;
     border-radius: 0px;
     background-color:  #D2D4F2;
-    margin-top: 90px;
+    margin-top: 10px;
     align-items: flex-start;
-    margin-top:10px ;
+    flex:1;
 }
 .div{
     display: inline-block;
@@ -157,7 +148,7 @@ body{
 
 }
 
-.nameSecond{
+ .nameSecond{
     display: inline-block;
     position: absolute;
     margin-top:300px;
@@ -172,13 +163,13 @@ body{
     border-radius: 17px;
     text-align: left;
     padding-left: 10px;
-}
+} 
 
 .pointsSecond{
     display: inline-block;
     position: absolute;
     margin-top:300px;
-    margin-left: -80px;
+    margin-left: -20px;
     font-family: 'Inter';
     color: #FFFF;
     font-size: 20px;
@@ -208,7 +199,7 @@ body{
     display: inline-block;
     position: absolute;
     margin-top: 340px;
-    margin-left:-90px; 
+    margin-left:-20px; 
     font-size: 20px;
     font-family: 'Inter';
     color: #FFFF;
